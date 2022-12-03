@@ -17,7 +17,7 @@ public class Validate {
     }
 
     public static String checkRematchAnswer(String input) {
-        List<String> candidate = Arrays.asList(new String[]{"네", "아니요"});
+        List<String> candidate = Arrays.asList(new String[]{"네", "아니오"});
         if (!candidate.contains(input)) {
             throw new IllegalArgumentException(ERROR_INVALID_SELECT);
         }

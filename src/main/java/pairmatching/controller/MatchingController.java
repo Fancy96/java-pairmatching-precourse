@@ -51,7 +51,7 @@ public class MatchingController {
         while (!flag) {
             try {
                 String input = checkRematchAnswer(getConfirmRematch());
-                if (input.equals("아니요")) {
+                if (input.equals("아니오")) {
                     return false;
                 }
                 flag = true;

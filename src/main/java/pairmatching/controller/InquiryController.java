@@ -8,7 +8,7 @@ import static pairmatching.view.OutputView.printMatchPair;
 import static pairmatching.view.OutputView.printMissionInfo;
 
 public class InquiryController {
-    private static final InquiryService inquiryService = new InquiryService();
+    private static final InquiryService inqueryService = new InquiryService();
 
     public void run() {
         boolean flag = false;
@@ -24,6 +24,6 @@ public class InquiryController {
     }
 
     public void printMatchInfo(String input) {
-        printMatchPair(inquiryService.getMatchInfo(input));
+        printMatchPair(inqueryService.getMatchInfo(input));
     }
 }
